@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-neutral-900 text-neutral-300;
+  }
+  h1 {
+    @apply text-[2rem] font-semibold leading-tight text-neutral-50;
+  }
+  h2 {
+    @apply text-[1.5rem] font-semibold leading-tight text-neutral-50;
+  }
+  h3 {
+    @apply text-[1.25rem] font-semibold leading-tight text-neutral-50;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply rounded-lg px-4 py-2 font-medium text-neutral-50 transition-colors duration-300;
+  }
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-500;
+  }
+  .btn-secondary {
+    @apply bg-neutral-800 hover:bg-neutral-700;
+  }
+  .card {
+    @apply rounded-lg bg-neutral-900 p-4 shadow-lg ring-1 ring-neutral-800;
+  }
+  .chip {
+    @apply rounded-full px-3 py-1.5 text-[0.75rem] font-medium;
+  }
+  .chip-neutral {
+    @apply bg-neutral-800 text-neutral-300;
+  }
+  .chip-blue {
+    @apply bg-blue-500/10 text-blue-500;
+  }
+  .chip-purple {
+    @apply bg-purple-500/10 text-purple-500;
+  }
+  .chip-amber {
+    @apply bg-amber-500/10 text-amber-500;
+  }
+  .chip-red {
+    @apply bg-red-500/10 text-red-500;
+  }
+}
