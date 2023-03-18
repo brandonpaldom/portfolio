@@ -22,6 +22,7 @@ export default function ProjectPage({ project }: Props) {
     offline,
     images,
     projects,
+    squareImage,
   } = project
   return (
     <Layout title={name}>
@@ -32,7 +33,7 @@ export default function ProjectPage({ project }: Props) {
         {client || url || github || offline ? (
           <ProjectLinks project={project} />
         ) : null}
-        {images && <Gallery images={images} />}
+        {images && <Gallery images={images} squareImage={squareImage} />}
         {projects && <ProjectsGallery projects={projects} />}
       </div>
     </Layout>

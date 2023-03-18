@@ -1,12 +1,19 @@
 import Image from 'next/image'
 
 interface Props {
+  squareImage?: boolean
   images: string[]
 }
 
-export default function Gallery({ images }: Props) {
+export default function Gallery({ squareImage, images }: Props) {
   return (
-    <div className="flex flex-col gap-4">
+    <div
+      className={
+        squareImage
+          ? 'grid grid-cols-1 gap-4 sm:grid-cols-2'
+          : 'flex flex-col gap-4'
+      }
+    >
       {images.map((image) => (
         <Image
           key={image}
