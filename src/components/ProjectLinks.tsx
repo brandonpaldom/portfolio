@@ -21,7 +21,7 @@ export default function ProjectLinks({ project }: Props) {
   const { client, url, github, offline } = project
 
   return (
-    <div className="flex gap-2">
+    <div className="flex flex-wrap gap-2">
       {client && <Chip color="chip-amber">{client}</Chip>}
       {url && (
         <Chip href={url} icon={publicIcon} color="chip-blue">
