@@ -5,7 +5,7 @@ import Layout from '@/components/Layout'
 import ProjectLinks from '@/components/ProjectLinks'
 import ProjectsGallery from '@/components/ProjectsGallery'
 import Tags from '@/components/Tags'
-import { getProjectBySlug, getProjects } from '@/helpers'
+import { getProjectBySlug, getProjects } from '@/utils'
 import { Project } from '@/interfaces/project'
 
 interface Props {
