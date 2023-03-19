@@ -1,4 +1,5 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
+import Alert from '@/components/Alert'
 import Gallery from '@/components/Gallery'
 import Layout from '@/components/Layout'
 import ProjectLinks from '@/components/ProjectLinks'
@@ -23,11 +24,21 @@ export default function ProjectPage({ project }: Props) {
     images,
     projects,
     squareImage,
+    development,
   } = project
   return (
-    <Layout title={name}>
+    <Layout
+      title={name}
+      description="Aquí encontrarás una selección de mis proyectos más destacados y una descripción de mi experiencia en el campo de la tecnología y el diseño web."
+    >
       <h1>{name}</h1>
-      <div className="mt-4 flex flex-col gap-4">
+      <div className="mt-4 flex flex-col items-start gap-4">
+        {development && (
+          <Alert>
+            Este proyecto aún está en desarrollo, por lo que algunas funciones
+            todavía no están disponibles.
+          </Alert>
+        )}
         <Tags tags={tags} />
         <p>{description}</p>
         {client || url || github || offline ? (
