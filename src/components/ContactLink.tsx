@@ -11,7 +11,7 @@ export default function ContactLink({ url, icon }: Props) {
       href={url}
       className="flex h-12 w-12 justify-center rounded-full bg-neutral-800 text-neutral-50 transition-colors duration-300 hover:bg-neutral-700"
       target="_blank"
-      rel="noopener noreferrer"
+      rel="noopener"
     >
       {icon}
     </Link>

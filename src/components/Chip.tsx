@@ -20,7 +20,7 @@ export default function Chip({ href, color, icon, children }: Props) {
           href={href}
           className={`chip ${color} flex items-center gap-2`}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener"
         >
           {icon && <div className="-ml-1.5">{icon}</div>}
           <span>{children}</span>
