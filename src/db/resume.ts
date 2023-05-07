@@ -1,13 +1,13 @@
 import { Resume } from '@/interfaces/resume'
 
 export const education: Resume[] = [
-  // {
-  //   image:
-  //     'https://res.cloudinary.com/dlomynswh/image/upload/v1678916762/portfolio/profile/ueh-logo.png',
-  //   title: 'Mercadotecnia',
-  //   organization: 'Universidad Euro Hispanoamericana',
-  //   date: '2022 - actualidad',
-  // },
+  {
+    image:
+      'https://res.cloudinary.com/dlomynswh/image/upload/v1678916762/portfolio/profile/ueh-logo.png',
+    title: 'Mercadotecnia',
+    organization: 'Universidad Euro Hispanoamericana',
+    date: '2022 - actualidad',
+  },
   {
     image:
       'https://res.cloudinary.com/dlomynswh/image/upload/v1678916762/portfolio/profile/uv-logo.png',
