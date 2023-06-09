@@ -19,6 +19,12 @@ export const education: Resume[] = [
 
 export const experience: Resume[] = [
   {
+    image: 'https://dummyimage.com/96x96/262626/262626.png',
+    title: 'Diseñador de interfaz de usuario',
+    organization: 'Hightek Desarrollo y Consultoría',
+    date: 'may 2021 - actualidad',
+  },
+  {
     image:
       'https://res.cloudinary.com/dlomynswh/image/upload/v1678916762/portfolio/profile/vreal-logo.png',
     title: 'Diseñador web y gráfico',
