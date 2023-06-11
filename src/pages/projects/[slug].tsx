@@ -35,8 +35,8 @@ export default function ProjectPage({ project }: Props) {
       <div className="mt-4 flex flex-col items-start gap-4">
         {development && (
           <Alert>
-            Este proyecto aún está en desarrollo, por lo que algunas funciones
-            todavía no están disponibles.
+            Este proyecto aún está en desarrollo. Es posible que algunas
+            funciones no funcionen como se espera.
           </Alert>
         )}
         <Tags tags={tags} />

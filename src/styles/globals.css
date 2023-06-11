@@ -7,19 +7,19 @@
     @apply bg-neutral-900 text-neutral-300;
   }
   h1 {
-    @apply text-[2rem] font-semibold leading-tight text-neutral-50;
+    @apply text-[2rem] font-bold leading-tight text-neutral-50;
   }
   h2 {
-    @apply text-[1.5rem] font-semibold leading-tight text-neutral-50;
+    @apply text-[1.5rem] font-bold leading-tight text-neutral-50;
   }
   h3 {
-    @apply text-[1.25rem] font-semibold leading-tight text-neutral-50;
+    @apply text-[1.25rem] font-bold leading-tight text-neutral-50;
   }
 }
 
 @layer components {
   .btn {
-    @apply rounded-lg px-4 py-2 font-medium text-neutral-50 transition-colors duration-300;
+    @apply rounded-lg px-4 py-2 font-semibold text-neutral-50 transition-colors duration-300;
   }
   .btn-primary {
     @apply bg-blue-600 hover:bg-blue-500;

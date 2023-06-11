@@ -22,7 +22,7 @@ export const experience: Resume[] = [
     image: 'https://dummyimage.com/96x96/262626/262626.png',
     title: 'Diseñador de interfaz de usuario',
     organization: 'Hightek Desarrollo y Consultoría',
-    date: 'may 2021 - actualidad',
+    date: 'may 2023 - actualidad',
   },
   {
     image:

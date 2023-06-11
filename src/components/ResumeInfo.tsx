@@ -24,7 +24,7 @@ export default function ResumeInfo({
           className="rounded-lg"
         />
         <div>
-          <p className="font-medium text-neutral-50">{title}</p>
+          <p className="font-semibold text-neutral-50">{title}</p>
           <p className="text-[0.875rem]">
             {organization} • {date}
           </p>
