@@ -2,6 +2,28 @@ import { Project } from '@/interfaces/project'
 
 export const projects: Project[] = [
   {
+    id: 'EcVUn8F72qcvxSwaVELM',
+    slug: 'barber-vue',
+    coverImage:
+      'https://res.cloudinary.com/dlomynswh/image/upload/v1689021184/portfolio/projects/barber-vue-2.jpg',
+    name: 'Barber Vue',
+    tags: ['Vue.js', 'Tailwind CSS', 'MongoDB', 'Express', 'Node.js'],
+    description:
+      'Barber Vue es una aplicación web para agendar citas en una barbería. Fue desarrollada con Vue.js, Tailwind CSS, MongoDB, Express y Node.js.',
+    client: 'Barber Vue',
+    url: 'https://dazzling-travesseiro-ab7e24.netlify.app/',
+    github: 'https://github.com/brandonpaldom/barber-vue-frontend',
+    images: [
+      'https://res.cloudinary.com/dlomynswh/image/upload/v1689021184/portfolio/projects/barber-vue-1.jpg',
+      'https://res.cloudinary.com/dlomynswh/image/upload/v1689021184/portfolio/projects/barber-vue-2.jpg',
+      'https://res.cloudinary.com/dlomynswh/image/upload/v1689021184/portfolio/projects/barber-vue-3.jpg',
+      'https://res.cloudinary.com/dlomynswh/image/upload/v1689021185/portfolio/projects/barber-vue-4.jpg',
+      'https://res.cloudinary.com/dlomynswh/image/upload/v1689021184/portfolio/projects/barber-vue-5.jpg',
+      'https://res.cloudinary.com/dlomynswh/image/upload/v1689021184/portfolio/projects/barber-vue-6.jpg',
+      'https://res.cloudinary.com/dlomynswh/image/upload/v1689021184/portfolio/projects/barber-vue-7.jpg',
+    ],
+  },
+  {
     id: '73TDrCBePvuSeyQVHt9v',
     slug: 'homely-marketplace',
     coverImage:

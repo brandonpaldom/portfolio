@@ -20,9 +20,9 @@ export const education: Resume[] = [
 export const experience: Resume[] = [
   {
     image: 'https://dummyimage.com/96x96/262626/262626.png',
-    title: 'Diseñador de interfaz de usuario',
+    title: 'Diseñador web Jr.',
     organization: 'Hightek Desarrollo y Consultoría',
-    date: 'may 2023 - actualidad',
+    date: 'may 2023 - jun 2023',
   },
   {
     image:
